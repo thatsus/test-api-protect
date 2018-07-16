@@ -24,7 +24,7 @@ trait ProtectClasses
     protected function bindProtectedClass($instance_name)
     {
         App::bind($instance_name, function () use ($instance_name) {
-            return new FakeApiClient($instance_name);
+            return new FakeProtectedClass($instance_name);
         });
     }
 
