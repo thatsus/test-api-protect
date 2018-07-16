@@ -1,0 +1,20 @@
+{
+    "name": "thatsus/test-api-protect",
+    "description": "Avoid hitting third party API's by forcing their client classes to be mocked in tests",
+    "require": {
+        "php": ">=7.0"
+    },
+    "require-dev": {
+        "laravel/framework": "5.3.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "ThatsUs\\": "src/ThatsUs"
+        }
+    },
+    "autoload-dev": {
+        "classmap": [
+            "tests/"
+        ]
+    }
+}
