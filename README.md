@@ -58,6 +58,19 @@ class InnocentTest extends TestCase
 }
 ```
 
+```php
+
+class Innocent 
+{
+
+    public function everythingIsFine()
+    {
+        app('App\SomeExpensiveClass')->doThing();
+        return true;
+    }
+}
+```
+
 Now you get this error.
 
 ```bash
