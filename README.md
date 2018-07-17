@@ -70,7 +70,9 @@ Time: 152 ms, Memory: 14.00MB
 There was 1 error:
 
 1) ThatsUs\InnocentTest::testInnocentMethod
-Exception: The App\SomeExpensiveClass instance is protected for tests. Setup a mock object using App::bind('App\SomeExpensiveClass', Closure). Method called: doThing.
+Exception: The App\SomeExpensiveClass instance is protected for tests. Setup 
+a mock object using App::bind('App\SomeExpensiveClass', Closure). Method 
+called: doThing.
 
 ./vendor/ThatsUs/FakeProtectedClass.php:21
 ./src/Innocent.php:10
