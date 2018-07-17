@@ -5,7 +5,7 @@
         "php": ">=7.0"
     },
     "require-dev": {
-        "laravel/framework": "5.3.*"
+        "orchestra/testbench": "~3.0"
     },
     "autoload": {
         "psr-4": {
